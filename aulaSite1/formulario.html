@@ -19,7 +19,7 @@
             </li>
         </ul>
         <h2>Formulário</h2>
-        
+        <p>Essa página possui um resumo sobre os conceitos de formulários do HTML!</p>
         <form>
             <div>
                 <label for="nome">Nome: </label>
@@ -47,8 +47,89 @@
 
             <div>
                 <label for="dataEvento">Data do Evento: </label>
-                <input type="date">
+                <input type="datetime-local">
             </div>
+            <br>
+
+            <div>
+                <label for="">
+                    Telefone:
+                    <input type="tel" required placeholder="(XX)XXXXX-XXXX">
+                </label>
+            </div>
+            <br>
+
+            <div>
+                <label for="email">
+                    Email: <input type="email" required>
+                </label>
+            </div>
+            <br>
+
+            <div>
+                <label for="peso">
+                    Peso : <input type="number" min="0" max="200" step="0.5">
+                </label>
+            </div>
+            <br>
+
+            <div>
+                <label for="volume">
+                    Volume: <input type="range" min="0" max="100" step="10">
+                </label>
+            </div>
+            <br>
+
+            <div>
+                <fieldset>
+                    <legend>Estado Civil</legend>
+                <p>
+                    <label>
+                        <input type="radio" name="est_civil" value="casado"> Casado
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="est_civil" value="solteiro"> Solteiro
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="est_civil" value="divorciado"> Divorciado 
+                    </label>
+                </p>
+                </fieldset>
+
+                <div>
+                    <fieldset>
+                        <legend>Produtos</legend>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="computador" value="computador"> Computador
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="impressora" value="impressora"> Impressora
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="monitor" value="monitor"> Monitor
+                            </label>
+                        </p>
+                    </fieldset>
+                </div>
+            </div>
+            <br>
+            <div>
+                <label>
+                    Deixe sua sugestão:
+                    <textarea cols="30" rows="5"></textarea>
+                </label>
+            </div>
+            <br>
+            <button type="submit">Enviar</button>
         </form>
     </body>
 </html>
