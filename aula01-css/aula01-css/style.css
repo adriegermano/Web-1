@@ -1,0 +1,47 @@
+*{
+    color: rgb(red, green, blue);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+h1{
+    background-color: blue;
+    color: white;
+}
+
+img{
+    width: 50%;
+}
+
+.p1{
+    text-align: center;
+}
+
+.p2{
+    text-align: right;
+}
+
+.p3{
+    text-align: justify;
+    width: 200px;
+}
+
+#fonte{
+    font-size: 22px;
+}
+
+p.margem{
+    margin: 100px;
+}
+
+p.borda{
+    border-style: solid;
+    border-color: aqua;
+    border-width: 10px;
+    border-radius: 10px;
+}
+
+.p{
+    font-size: 80px;
+}
