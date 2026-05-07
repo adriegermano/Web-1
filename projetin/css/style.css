@@ -1,0 +1,9 @@
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between; 
+}
+
+.nav-link{
+    margin: 0 50px;
+}
