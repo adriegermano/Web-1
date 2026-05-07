@@ -1,0 +1,58 @@
+COMANDOS:
+
+	Bandeirinha + E --> Abre Explorer do Windows
+
+	CTRL + SHIFT + N --> Cria uma pasta 
+
+	ALT GR + TECLA COM TRÊS CÓDIGOS --> Vai o código do meio
+
+	ALT + TAB --> Fica migrando entre telas diferentes
+
+	CTRL + S --> Salva o arquivo
+
+	SHIFT + END --> Seleciona de onde o cursor tá, até o final da linha
+
+	SHIFT + HOME--> Seleciona de onde o cursor tá, até o início da linha
+
+	SHIFT + SETA PRA BAIXO --> Seleciona de onde o cursor tá para outras linhas a baixo
+
+	CTRL + X --> Recorta a coisa selecionada
+
+	ALT + TECLA SELECIONADA NO VS CODE --> Seleciona mais coisa 
+
+	DELETE --> Apaga pra direita
+
+	BACKSPACE --> Apaga pra esquerda
+
+	ALT + Z --> Quebra de Linha no VS CODE
+
+	CLIQUE DO SCROLL DO MOUSE --> Abre uma aba externa
+
+	F2 - Renomear arquivo
+
+CONCEITOS:
+
+	TAGS --> Onde nós marcamos os nossos valores
+		a --> tag de ancoragem --> dentro dela tem o parâmetro href (link com a referência)
+		
+
+UI - User Interface
+UX - User Experience
+
+CLIENTE-SERVIDOR --> PC para o SERVIDOR
+
+HTTP --> Transmissão
+HTTPS --> Transmissão com Segurança
+
+SITES BONS:
+
+	https://www.tutorialspoint.com/html/index.htm
+
+	https://www.w3schools.com/html/
+
+LIVROS: 
+
+	HTML 5 - Guia Prático
+	
+	HTML & CSS: aprenda como construir páginas web
+
