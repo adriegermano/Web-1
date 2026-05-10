@@ -1,9 +1,13 @@
-.navbar-nav{
-    display: flex;
-    align-items: center;
-    justify-content:space-between; 
+.navbar{
+    padding: 0;
+}
+
+.navbar-brand{
+    padding: 0;
+    
 }
 
 .nav-link{
-    margin: 0 50px;
+    margin: 20px 50px;
 }
+
