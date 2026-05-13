@@ -1,13 +1,99 @@
+/*Geral*/
+header{
+    margin-bottom: 60px;
+}
+
 .navbar{
     padding: 0;
+    text-align: center;
 }
 
 .navbar-brand{
     padding: 0;
-    
+    text-align: center;
 }
 
 .nav-link{
     margin: 20px 50px;
+    color: white;
+    text-align: center;
 }
 
+.bg-cor{
+    background-color: #085CA6;
+}
+
+.active {
+    color: #66B1F2 !important;
+    text-shadow: 0px 0px 3px;
+}
+
+footer{
+    background-color: #F23C13;
+    margin-top: 30px !important;
+    margin: 0;
+    padding: 1.5rem;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+footer i{
+    font-size: 2rem;
+    color: #fff;
+    width: 210px !important;
+}
+
+/*Index*/
+
+.espacamento{
+    margin: 0 60px;
+    margin-bottom: 20px !important;
+}
+
+
+.titulo{
+    text-shadow: 1px 0px 2px black;
+}
+.produtos{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.card-produto{
+    width: 390px;
+    background-color: #66B1F2;
+    color: white;
+    margin-left: 1vw;
+    margin-bottom: 5vh;
+
+}
+
+.card-produto:hover{
+    width: 400px;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+.btn-cor{
+    background-color: #F23C13;
+    color: white;
+}
+
+.btn-cor:hover{
+    background-color: #085CA6;
+}
+
+.tabela{
+    margin: 0 auto !important;
+    
+}
+
+.tabela th{
+    padding: 0 50px;
+    text-align: center;
+}
+
+.tabela td{
+    padding: 0 50px;
+
+}

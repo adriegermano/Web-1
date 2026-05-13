@@ -1,0 +1,19 @@
+.apresentacao{
+    margin: 0;
+    padding: 30px;
+}
+.empresa{
+    text-align: justify;
+    font-size: 1.4rem;
+    border-radius: 5px;
+}
+
+.caracteristicas{
+    margin: 50px;
+    font-size: 20px;
+    background-color: #66B1F2;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+
+}

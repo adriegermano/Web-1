@@ -2,71 +2,186 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VoleyLab</title>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VoleyLab</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="img/logo-header.png" alt="" width="140px"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav position-absolute top-0 start-50 translate-middle-x" /*Tudo depois de navbar-nav é para ajustar os links no meio da tela*/>
-                        <a class="nav-link active" href="#">Início</a>
-                        <a class="nav-link" href="quemsomos.html">Quem Somos</a>
-                        <a class="nav-link" href="faleconosco.html">Fale Conosco</a>
-                    </div>
-                </div>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-cor">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/logo-header.png" alt="" width="140px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav position-absolute top-0 start-50 translate-middle-x" /*Tudo depois de navbar-nav é para
+            ajustar os links no meio da tela* />
+          <a class="nav-link active" href="#">Início</a>
+          <a class="nav-link" href="quemsomos.html">Quem Somos</a>
+          <a class="nav-link" href="faleconosco.html">Fale Conosco</a>
+        </div>
+      </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/imagem1.jpg" class="d-block w-100" alt="Imagem 1">
+        </div>
+        <div class="carousel-item">
+          <img src="img/imagem2.jpg" class="d-block w-100" alt="Imagem 2">
+        </div>
+        <div class="carousel-item">
+          <img src="img/imagem3.jpeg" class="d-block w-100" alt="Imagem 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <div class="espacamento">
+      <h1 class="produtos">Produtos</h1>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-sm">
+            <div class="card card-produto">
+              <img src="img/sucaza2400.jpg" class="card-img-top" alt="Imagem da Bola SuCaza">
+              <div class="card-body">
+                <h5 class="card-title titulo">SuCaza V2400</h5>
+                <p class="card-text">Desenvolvida para oferecer precisão e durabilidade em todos os seus treinos. A
+                  escolha certa para quem busca consistência e um toque macio para evoluir seus fundamentos diariamente.
+                </p>
+                <a href="#" class="btn btn-cor">Comprar</a>
+              </div>
             </div>
-        </nav>
+          </div>
+          <div class="col-sm">
+            <div class="card card-produto">
+              <img src="img/tenisnikovitaly.jpg" class="card-img-top" alt="Imagem do Tênis Niko">
+              <div class="card-body">
+                <h5 class="card-title titulo">Niko Vitaly</h5>
+                <p class="card-text">O ponto de partida ideal para quem busca performance e estabilidade em quadra.
+                  Garanta o suporte necessário para seus primeiros grandes saltos com o estilo único da linha Niko.</p>
+                <a href="#" class="btn btn-cor">Comprar</a>
+              </div>
+            </div>
+          </div>
 
-        <div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/imagem1.jpg" class="d-block w-100" alt="Imagem 1">
+          <div class="col-sm">
+            <div class="card card-produto">
+              <img src="img/n4.jpg" class="card-img-top" alt="Imagem da Joelheira N4">
+              <div class="card-body">
+                <h5 class="card-title titulo">N4 Standard</h5>
+                <p class="card-text">Proteção essencial e conforto para garantir sua segurança em todas as defesas. O
+                  equilíbrio perfeito entre flexibilidade e resistência para quem não tem medo de se jogar na quadra.
+                </p>
+                <a href="" class="btn btn-cor">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card card-produto">
+              <img src="img/n4premium.jpg" class="card-img-top" alt="Imagem da Joelheira N4">
+              <div class="card-body">
+                <h5 class="card-title titulo">N4 Premium</h5>
+                <p class="card-text">O padrão ouro em proteção profissional com materiais de alta absorção de impacto.
+                  Sinta a confiança de um design anatômico premium que acompanha cada movimento do seu jogo de elite.
+                </p>
+                <a href="" class="btn btn-cor">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card card-produto">
+              <img src="img/sucaza10.0.jpg" class="card-img-top" alt="Imagem da Bola SuCaza">
+              <div class="card-body">
+                <h5 class="card-title titulo">SuCaza 10.0</h5>
+                <p class="card-text">A coroa SuCaza, projetada com aerodinâmica superior para saques e
+                  ataques implacáveis. Experimente a perfeição técnica e o controle absoluto que definem uma verdadeira
+                  nota 10.</p>
+                <a href="#" class="btn btn-cor">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card card-produto">
+              <img src="img/tenisnikodeath.jpg" class="card-img-top" alt="Imagem do Tênis Niko">
+              <div class="card-body">
+                <h5 class="card-title titulo">Niko Death</h5>
+                <p class="card-text">A evolução máxima em tecnologia e amortecimento para dominar a rede. Alcance o topo
+                  do seu jogo com o design agressivo e a resposta rápida que só a versão Elite oferece.</p>
+                <a href="#" class="btn btn-cor">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="img/imagem2.jpg" class="d-block w-100" alt="Imagem 2">
-    </div>
-    <div class="carousel-item">
-      <img src="img/imagem3.jpeg" class="d-block w-100" alt="Imagem 3">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-    </header>
-    <main>
 
-    </main>
-    <footer>
+    <h1 class="produtos">Valores</h1>
+    <div class="table-responsive">
+      <table class="table-bordered tabela">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Bolas</th>
+            <th scope="col">Tênis</th>
+            <th scope="col">Joelheiras</th>
+          </tr>
+        </thead>
+        <tbody class="table-group-divider">
+          <tr>
+            <th scope="row">1</th>
+            <td>SuCaza V2400 - R$129,90</td>
+            <td>Niko Vitaly - R$389,90</td>
+            <td>N4 Standard - R$109,90</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>SuCaza 10.0 - R$349,90</td>
+            <td>Niko Death - R$698,90</td>
+            <td>N4 Premium - R$259,60</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
 
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+  <footer>
+    <p>Copyright &copy; VoleyLab - 2026</p>
+    <a href="index.html"><i class="bi bi-arrow-up-circle"></i></a>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
