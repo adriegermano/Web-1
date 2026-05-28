@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    
+    <script>
+        const nomesobrenome = "Adriel Germano Ferreira";
+        function exFuncao(){
+            document.getElementById("cod2").innerHTML = "Disciplina: Desenvolvimento Web I";
+        }
+        function exNome(){
+            document.getElementById("nome").innerHTML = `Nome: ${nomesobrenome}`;
+        }
+        function exIdade(idade){
+            document.getElementById("idade").innerHTML = `Sua idade é ${idade} anos`;
+        }
+    </script>
+</head>
+<body>
+    <h2>Aula sobre JavaScript no HTML</h2>
+
+    <button onclick="alert('Olá Mundo!')">Clique Aqui</button>
+
+    <button onclick="exFuncao()">Disciplina</button>
+
+    <button onclick="exNome()">Nome</button>
+
+    <button onclick="exIdade('18')">Idade</button>
+
+    <p id="cod1"></p>
+
+    <p id="cod2">Disciplina: </p>
+
+    <p id="nome">Nome: </p>
+
+    <p id="idade">Idade: </p>
+
+    <script>
+        document.getElementById("cod1").innerHTML = "Olá Mundo!";
+/*document é um objeto - é o DON*/
+/*get - vai retornar*/
+/*getElementById() - vai retornar o id que defini antes - é uma função*/
+/*innerHTML - O ID vai receber o valor que defini, a gente insere um valor*/
+
+</script>
+</body>
+</html>

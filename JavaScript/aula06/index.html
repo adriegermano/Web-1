@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function soma() {
+            result.value = parseInt(v1.value) + parseInt(v2.value);
+
+
+            
+            /*parseInt() - Transforma o tipo do elemento*/
+        }
+        function multiplicacao() {
+            result.value = parseInt(v1.value) * parseInt(v2.value);
+        }
+        function divisao() {
+            result.value = parseFloat(v1.value) / parseFloat(v2.value);
+        }
+        function subtracao(){
+            result.value = parseInt(v1.value) - parseInt(v2.value);
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Soma de Dois Números: </h2>
+    Valor 1: <input type="text" id="v1">
+    <br>
+    <br>
+    Valor 2: <input type="text" id="v2">
+    <br>
+    <br>
+
+    <button onclick="soma()">Somar</button>
+    <br>
+    <button onclick="multiplicacao()">Multiplicar</button>
+    <br>
+    <button onclick="divisao()">Dividir</button>
+    <br>
+    <button onclick="subtracao()">Subtrair</button>
+    <br>
+
+    Resultado: <input type="text" id="result" value="0" readonly>
+</body>
+
+</html>
