@@ -33,7 +33,7 @@ console.log("O resultado da multiplicação é de: " + resultado);
 console.log(multiplicacao(7,8));
 */
 
-/*OUTRO JEITO DA MULTIPLICAÇÃO COM INTERPOLAÇÃO*/
+/*OUTRO JEITO DA MULTIPLICAÇÃO COM INTERPOLAÇÃO - Nessa interpolação usa-se as crases ``*/
 function multiplicacao(a, b){
     console.log(`O valor da multiplicação entre ${a} e ${b} é de: ${(a * b)}`);
 }
