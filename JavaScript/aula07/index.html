@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <h2>Soma de Dois Números: </h2>
+    <h2>Cálculo de Dois Números: </h2>
     Valor 1: <input type="text" id="v1">
     <br>
     <br>
@@ -30,18 +30,24 @@
     <br>
     -->
 
-    <button onclick="calc()">Calcular</button>
-    <br><br>
+    <select name="operacao" id="op">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
 
-    Resultado Soma: <input type="text" id="soma" value="0" readonly>
-    <br><br>
-    Resultado Subtração: <input type="text" id="sub" value="0" readonly>
-    <br><br>
-    Resultado Multiplicação: <input type="text" id="mult" value="0" readonly>
-    <br><br>
-    Resultado Divisão: <input type="text" id="divi" value="0" readonly>
+    <button onclick="calc()">Calcular</button>
+
+    <br>
+    <br>
+
+    Resultado: <input type="text" id="result" value="0" readonly>
 
     <script src="script.js"></script>    
 </body>
 
 </html>
+
+
+<!--PARA ESTUDO: https://www.w3schools.com/js/''-->
